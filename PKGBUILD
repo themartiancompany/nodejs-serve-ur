@@ -16,6 +16,7 @@ license=(
 )
 depends=(
   'nodejs'
+  'nodejs-inherits'
 )
 makedepends=(
   'npm'
