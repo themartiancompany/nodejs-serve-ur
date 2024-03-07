@@ -33,8 +33,8 @@ package() {
     _npm_options=()
   _npm_options=(
     -g 
-    --user 
-      root 
+    # --user 
+    #   root 
     --prefix 
       "$pkgdir"/usr
   )
