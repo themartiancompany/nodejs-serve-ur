@@ -113,7 +113,7 @@ _npm_http="http://registry.npmjs.org"
 source=()
 sha256sums=()
 if [[ "${_evmfs}" == "true" ]]; then
-  _src="${_evmfs_src}"
+  _uri="${_evmfs_uri}"
   source+=(
     "${_sig_src}"
   )
