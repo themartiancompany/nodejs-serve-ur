@@ -87,6 +87,9 @@ depends=(
   "${_node}"
   "${_node}-inherits"
 )
+provides=(
+  "${_pkg}=${pkgver}"
+)
 makedepends=(
 )
 if [[ "${_npm}" == "true" ]]; then
