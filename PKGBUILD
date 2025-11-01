@@ -91,12 +91,8 @@ provides=(
   "${_pkg}=${pkgver}"
 )
 makedepends=(
+  "npm"
 )
-if [[ "${_npm}" == "true" ]]; then
-  makedepends+=(
-    "npm"
-  )
-fi
 _tarname="${_pkg}-${pkgver}"
 _tarfile="${_tarname}.${_archive_format}"
 _sum="c0d39ad4cb5b5991b3860eeeba64d8d4f1aeb8f28035b08e12fb86182ca7456f"
